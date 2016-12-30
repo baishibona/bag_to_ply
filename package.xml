@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>bag_to_ply</name>
+  <version>0.0.1</version>
+  <description>save point cloud msg to a ply file</description>
+
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/bag_to_ply</url>
+
+  <author email="baishi.bona@gmail.com">Bona</author>
+
+  <maintainer email="baishi.bona@gmail.com">Bona</maintainer>
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
